@@ -1,12 +1,14 @@
 ## 启动 linux 客户端
 # 日志在  /var/log/shadowsocksr.log
-# sudo python /data/service/ssr/src/shadowsocks/local.py -c /data/service/ssr/shadowsocks.json -d start
+```shell
+sudo python /data/service/ssr/src/shadowsocks/local.py -c /data/service/ssr/shadowsocks.json -d start
+```
 # json例子
 ```json
     {
 	"server": "x.x.x.cn",
 	"server_ipv6": "::",
-	"server_port": xxxx,
+	"server_port": 8888,
 	"local_address": "127.0.0.1",
 	"local_port": 1080,
 	"password": "xxxxx",
