@@ -2,7 +2,8 @@
 # 日志在  /var/log/shadowsocksr.log
 # sudo python /data/service/ssr/src/shadowsocks/local.py -c /data/service/ssr/shadowsocks.json -d start
 # json例子
-{
+```json
+    {
 	"server": "x.x.x.cn",
 	"server_ipv6": "::",
 	"server_port": xxxx,
@@ -18,8 +19,8 @@
 	"obfs_param": "xxxx",
 	"fast_open": false,
 	"workers": 1
-}
-
+    }
+```
 
 
 
