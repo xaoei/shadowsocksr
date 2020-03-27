@@ -1,3 +1,29 @@
+## 启动 linux 客户端
+#日志在  /var/log/shadowsocksr.log
+sudo python /data/service/ssr/src/shadowsocks/local.py -c /data/service/ssr/shadowsocks.json -d start
+# json例子
+{
+	"server": "x.x.x.cn",
+	"server_ipv6": "::",
+	"server_port": xxxx,
+	"local_address": "127.0.0.1",
+	"local_port": 1080,
+	"password": "xxxxx",
+	"timeout": 300,
+	"udp_timeout": 60,
+	"method": "chacha20",
+	"protocol": "auth_aes128_sha1",
+	"protocol_param": "xxxxx",
+	"obfs": "http_simple",
+	"obfs_param": "xxxx",
+	"fast_open": false,
+	"workers": 1
+}
+
+
+
+
+
 ShadowsocksR
 ===========
 
